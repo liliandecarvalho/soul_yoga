@@ -1,11 +1,11 @@
-# Nome do meu projeto
+# SOUL YOGA
 
-Rápida descrição do objetivo de fazer esse projeto
+Criação do site do studio de yoga & meditação SOUL YOGA.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
+| :sparkles: Nome        | **SOUL YOGA**
+| :label: Tecnologias | HTML e CSS
 | :rocket: URL         | https://url-deploy.com.br
 | :fire: Desafio     | https://url-do-desafio.com.br
 
@@ -14,4 +14,4 @@ Rápida descrição do objetivo de fazer esse projeto
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+Site criado em HTML e CSS, onde trabalhei com: posicionamento, listas, navegação, formulários e tabelas.
