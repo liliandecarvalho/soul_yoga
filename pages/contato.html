@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Yoga: aulas</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="box-cabecalho">
+            <img class="logo_claro" src="../assets/logo.svg" alt="Logo">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aulas.html">Aulas</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend>Qual aula tem preferência?</legend>
+                <label for="radio-grupo"><input type="radio" name="aula" value="grupo" id="radio-grupo" checked>
+                    Em grupo</label>
+                <label for="radio-individual"><input type="radio" name="aula" value="individual" id="radio-individual">
+                    Individual</label>
+                <label for="radio-gestante"><input type="radio" name="aula" value="gestante" id="radio-gestante">Para
+                    gestantes</label>
+                <label for="radio-crianca"><input type="radio" name="aula" value="crianca" id="radio-crianca">Para
+                    crianças</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Em qual período prefere a aula?</legend>
+                <select>
+                    <option>Manhã: 7h ~ 8h</option>
+                    <option>Tarde: 14h ~ 15h</option>
+                    <option>Noite: 20h ~ 21h</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas newsletters por
+                email?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Período</th>
+                    <th>Dias</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Manhã</td>
+                    <td>segunda, quarta e sexta</td>
+                </tr>
+                <tr>
+                    <td>Tarde</td>
+                    <td>terça, quinta e sexta</td>
+                </tr>
+                <tr>
+                    <td>Noite</td>
+                    <td>segunda, terça e quinta</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <img class="faixa" src="../assets/faixa.svg" alt="yogins">
+        <p class="copyright">&copy; Copyright Soul Yoga - 1998</p>
+    </footer>
+</body>
+
+</html>

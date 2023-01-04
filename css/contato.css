@@ -1,0 +1,83 @@
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../assets/background.svg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    margin: auto;
+}
+
+.input-padrao {
+    display: block;
+    margin: auto;
+    padding: 10px 25px;
+    width: 30%;
+}
+
+fieldset {
+    width: 460px;
+    margin: auto;
+}
+
+select {
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+
+fieldset label {
+    padding-left: 150px;
+    text-align: justify;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 30%;
+    padding: 15px 0;
+    background: #FFAE10;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #42B3BE;
+    transform: scale(1.2);
+}
+
+table {
+    margin: auto;
+    padding-top: 20px;
+}
+
+thead {
+    background: #42B3BE;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    text-align: center;
+}

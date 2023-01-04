@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F4F0;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.box-cabecalho {
+    position: relative;
+    width: 100%;
+}
+
+.logo_claro {
+    height: 100px;
+    margin-left: 550px;
+}
+
+nav {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    margin-right: 550px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #42B3BE;
+}
+
+nav a:hover {
+    color: #FFAE10;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.faixa {
+    width: 100%;
+    align-items: center;
+}
+
+.copyright {
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #42B3BE;
+}
